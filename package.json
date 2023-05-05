@@ -1,0 +1,41 @@
+{
+  "name": "automation-test-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://prashantsinha7891@bitbucket.org/taazaainc/automation-test-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/taazaainc/automation-test-lab#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@wdio/cli": "^5.16.10",
+    "@wdio/local-runner": "^5.16.10",
+    "@wdio/mocha-framework": "^5.16.10",
+    "@wdio/spec-reporter": "^5.16.5",
+    "@wdio/sync": "^5.16.10",
+    "chromedriver": "^80.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "babel-install": "^2.1.0",
+    "chai": "^4.2.0",
+    "jasmine-core": "^2.2.0",
+    "karma": "~0.12.9",
+    "karma-jasmine": "^0.3.5",
+    "mssql": "^6.0.1",
+    "request": "^2.88.0",
+    "tedious": "^6.6.2"
+  }
+}
